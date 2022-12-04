@@ -1,0 +1,148 @@
+body{
+    margin: 0;
+}
+.card-pokemon{
+    background-color: #FFF;
+    height: 50vh;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 1.4rem 1.4rem 0 0;
+    padding: 2rem;
+}
+
+h1 {
+    color: #FFF;
+    font-weight: bold;
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.card-pokemon img{
+    height: 220px;
+    margin: 0 auto;
+    margin-top: -200px;
+    width: 100%;
+}
+
+body > section > header > .icons > span{
+    color: #FFF;
+    padding: 1rem 2rem;
+    font-weight: bold;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.details-pokemon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
+.types{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    list-style: none;
+    padding: 0;
+}
+
+.type{
+    filter: brightness(1.1);
+    padding: .5rem;
+    color: #FFF;
+    border-radius: .8rem;
+    margin-right: .3rem;
+    font-size: 1.2rem;
+}
+
+.number{
+    color: #FFF;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.tabs{
+    margin-top: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tabslink{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    font-size: 1.2rem;
+}
+
+.tabslink.active{
+    border-bottom: 1px solid blue;
+}
+
+.tabContent{
+    display: none;
+}
+
+.tabContent#about{
+    display: block;
+}
+table{
+    padding: 1.3rem 0;
+}
+
+table tr{
+    width: 100%;
+}
+
+table td.table-key{
+    color: #B6B8BA;
+    font-size: 1.2rem;
+    padding-right: 2rem;
+    padding-bottom: .3rem;
+}
+
+table .table-value{
+    color: #60636A;
+    font-size: 1.2rem;
+}
+
+.container{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+
+@media (min-width: 768px) {
+    .container{
+        max-width: 768px;
+        margin: 0 auto;
+    }
+    .card-pokemon{
+        width: 768px;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 320px) {
+    *{
+        font-size: .8rem;
+    }
+
+    h1{
+        font: 1.2rem;
+    }
+
+    .card-pokemon img{
+        height: 150px;
+   
+    }
+}
