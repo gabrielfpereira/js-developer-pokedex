@@ -21,3 +21,9 @@ Com ``Nodejs`` instalado globalmente Inicie o servidor
   npx http-server ./
 ```
 
+## Preview
+
+[Projeto Pokedex](https://gabrielfpereira.github.io/js-developer-pokedex/)
+
+
+
